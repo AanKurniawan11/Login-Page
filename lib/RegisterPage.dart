@@ -16,8 +16,12 @@ class _RegisterPageState extends State<RegisterPage> {
         centerTitle: true,
         backgroundColor: Colors.blueAccent,
       ),
-      body: Image(
-        image: AssetImage('images/logos.jpg'),
+      body:Center (
+        child: Column(
+          children: [
+            Text("Belum Jadi",)
+          ],
+        ),
       ),
     );
   }
